@@ -21,6 +21,7 @@ public class FadeVolume : MonoBehaviour
     [SerializeField] float fadeTime = 3.0f;
     [SerializeField] FadeType fadeType;
     [SerializeField, Tooltip("Whether to lock the camera while fading or not")] bool lockCamera = true;
+    [SerializeField] bool isEndCutscene = false;
 
     private Volume volume;
 
@@ -132,6 +133,10 @@ public class FadeVolume : MonoBehaviour
     {
         yield return new WaitForSeconds(0.8f);
         gameObject.SetActive(false);
-        fadeSprite.enabled = false;
+        if (isEndCutscene == false)
+        {
+            fadeSprite.enabled = false;
+
+        }
     }
 }

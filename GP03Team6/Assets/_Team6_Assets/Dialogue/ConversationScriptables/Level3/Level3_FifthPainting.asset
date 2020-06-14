@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Level3_FifthPainting
   m_EditorClassIdentifier: 
   dialogues:
-  - dialogueText: Oh my god
+  - dialogueText: I think I am dying...
     dialogueOwner: 0
-  - dialogueText: Am I dead?
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 1
+  - dialogueText: I need to find my son.
     dialogueOwner: 0
-  - dialogueText: This place is not real
-    dialogueOwner: 0
-  - dialogueText: "It\u2019s just a part of my mind"
-    dialogueOwner: 0
-  - dialogueText: I need to get out of here
-    dialogueOwner: 0
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 1
