@@ -59,12 +59,12 @@ public class LazerPuzzle : MonoBehaviour
     {
         if (isRecieving)
         {
+            foreach (Material item in mat)
+            {
+                item.SetFloat("_ActiveAmount", 1f);
+            }
             if (theEnd)
             {
-                foreach(Material item in mat)
-                {
-                    item.SetFloat("_ActiveAmount", 1f);
-                }
                 if(ReachedMyGoal == false)
                 {
                     FMODUnity.RuntimeManager.PlayOneShotAttached(endSound, this.gameObject);
@@ -86,6 +86,10 @@ public class LazerPuzzle : MonoBehaviour
         }
         if (canRecieve)
         {
+            foreach (Material item in mat)
+            {
+                item.SetFloat("_ActiveAmount", 0f);
+            }
             if (theEnd)
             {
 
@@ -115,12 +119,8 @@ public class LazerPuzzle : MonoBehaviour
                         Directions[lazerIndexTo].lazerSend = true;
                     }
                 }
-                foreach (Material item in mat)
-                {
-                    item.SetFloat("_ActiveAmount", 0f);
-                }
+                
                 ReachedMyGoal = false;
-
 
             }
             MyLineRender.SetPosition(0, Directions[lazerIndexTo].transform.position);   //Find BETTER solution for this please!!!
