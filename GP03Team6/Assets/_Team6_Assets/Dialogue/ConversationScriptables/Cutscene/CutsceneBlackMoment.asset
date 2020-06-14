@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07db2368ab199a41a6985de8ac7715c, type: 3}
+  m_Name: CutsceneBlackMoment
+  m_EditorClassIdentifier: 
+  dialogues:
+  - dialogueText: Wait...
+    dialogueOwner: 0
+    timeBeforeStarting: 0.6
+    timeBeforeFadingDialogue: 0.4
+    fadeTime: 0.5
+  - dialogueText: I know who these people are.
+    dialogueOwner: 0
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: "They\u2019re us!"
+    dialogueOwner: 0
+    timeBeforeStarting: 0.3
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: "You\u2019re my son!"
+    dialogueOwner: 0
+    timeBeforeStarting: 0.2
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: Son...
+    dialogueOwner: 0
+    timeBeforeStarting: 2
+    timeBeforeFadingDialogue: 0.5
+    fadeTime: 0.5
+  - dialogueText: I am so sorry...
+    dialogueOwner: 0
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: ...for everything
+    dialogueOwner: 0
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: ...Son?
+    dialogueOwner: 0
+    timeBeforeStarting: 0.5
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5

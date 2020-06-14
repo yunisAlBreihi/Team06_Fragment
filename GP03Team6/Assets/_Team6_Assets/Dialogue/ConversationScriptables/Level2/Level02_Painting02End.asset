@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07db2368ab199a41a6985de8ac7715c, type: 3}
+  m_Name: Level02_Painting02End
+  m_EditorClassIdentifier: 
+  dialogues:
+  - dialogueText: "I\u2019m thinking, maybe these paintings are connected?"
+    dialogueOwner: 1
+  - dialogueText: Maybe the child was abandoned or lost?
+    dialogueOwner: 1
+  - dialogueText: "It\u2019s hard to judge yet."
+    dialogueOwner: 0
+  - dialogueText: "Maybe it\u2019s just paintings."
+    dialogueOwner: 0
