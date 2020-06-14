@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{25eed1d4-bfcf-4280-84b9-7d377d85348a}">
+		<property name="assetPath">
+			<value>Is that a fox.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.7350793650793648</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dca8ee79-cd13-4391-8bf5-7b9d6d229d05}</destination>
+		</relationship>
+	</object>
+</objects>

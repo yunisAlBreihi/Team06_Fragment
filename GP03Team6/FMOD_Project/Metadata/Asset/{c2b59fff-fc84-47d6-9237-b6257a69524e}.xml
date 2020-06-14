@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{c2b59fff-fc84-47d6-9237-b6257a69524e}">
+		<property name="assetPath">
+			<value>MemoryFragments/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dca8ee79-cd13-4391-8bf5-7b9d6d229d05}</destination>
+		</relationship>
+	</object>
+</objects>

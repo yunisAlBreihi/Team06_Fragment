@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b16a8b61-741e-41e1-94d8-45ee72f049ee}">
+		<property name="assetPath">
+			<value>Ojnar/Footsteps/Ojnar_Step-009.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39444444444444443</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dca8ee79-cd13-4391-8bf5-7b9d6d229d05}</destination>
+		</relationship>
+	</object>
+</objects>

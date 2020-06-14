@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{cdc56526-95e6-4e7d-9a50-1a6fae0b8c1e}">
+		<property name="assetPath">
+			<value>Chain_Foley-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.90854875283446712</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dca8ee79-cd13-4391-8bf5-7b9d6d229d05}</destination>
+		</relationship>
+	</object>
+</objects>
