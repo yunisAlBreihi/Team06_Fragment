@@ -16,10 +16,10 @@ MonoBehaviour:
   - dialogueText: I think I am dying...
     dialogueOwner: 0
     timeBeforeStarting: 0.1
-    timeBeforeFadingDialogue: 1
-    fadeTime: 1
+    timeBeforeFadingDialogue: 0.75
+    fadeTime: 0.5
   - dialogueText: I need to find my son.
     dialogueOwner: 0
     timeBeforeStarting: 0.1
     timeBeforeFadingDialogue: 1
-    fadeTime: 1
+    fadeTime: 0.75

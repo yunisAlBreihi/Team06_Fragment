@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Level3_SmallDialogWithYourself
   m_EditorClassIdentifier: 
   dialogues:
-  - dialogueText: It feels like a dream
+  - dialogueText: This place...
     dialogueOwner: 0
-  - dialogueText: What is this place and why am I here?
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 0.5
+    fadeTime: 0.5
+  - dialogueText: It isn't real.
     dialogueOwner: 0
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
