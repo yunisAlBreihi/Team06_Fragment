@@ -72,7 +72,7 @@ public class ManualCutscene : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         cm.enabled = true;
-        
+        active = true;
     }
 
     private IEnumerator SmoothOut()
@@ -122,7 +122,7 @@ public class ManualCutscene : MonoBehaviour
 
     private void Update()
     {
-        if(cm.enabled == true)
+        if(active == true)
         {
             Debug.Log("SHOULD BE MOVING");
 
@@ -144,6 +144,7 @@ public class ManualCutscene : MonoBehaviour
         StartCoroutine(p.SwitchState(p.groundMoveState));
         cm.enabled = false;
         camScript.enabled = true;
+        active = false;
         vc.m_Priority = 10;
         StartCoroutine(WaitThenDestroy());
         StartCoroutine(SmoothOut());
