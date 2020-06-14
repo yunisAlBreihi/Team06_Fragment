@@ -1,0 +1,1 @@
+p4 set P4IGNORE=%cd%\p4ignore.txt
