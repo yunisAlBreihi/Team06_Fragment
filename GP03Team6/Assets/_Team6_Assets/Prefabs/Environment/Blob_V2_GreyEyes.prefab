@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 669011132991343631}
   - component: {fileID: 5775748422947802739}
   - component: {fileID: 3992649235218669915}
-  - component: {fileID: 3230522773238636059}
   m_Layer: 0
   m_Name: BlobEye4
   m_TagString: Untagged
@@ -80,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3230522773238636059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207203936296213273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0bc5450745966419fbcb66c70c4c13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p: {fileID: 0}
 --- !u!1 &1376046262016014090
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +123,6 @@ GameObject:
   - component: {fileID: 6608535557341052329}
   - component: {fileID: 1888141861145406395}
   - component: {fileID: 4638286746646827294}
-  - component: {fileID: 8366547454353504874}
   m_Layer: 0
   m_Name: BlobEye5
   m_TagString: Untagged
@@ -206,19 +191,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8366547454353504874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4857058407239131747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0bc5450745966419fbcb66c70c4c13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p: {fileID: 0}
 --- !u!1 &5793344100343306573
 GameObject:
   m_ObjectHideFlags: 0
