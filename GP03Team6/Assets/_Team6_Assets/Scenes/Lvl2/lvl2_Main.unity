@@ -2626,6 +2626,7 @@ MonoBehaviour:
   fadeTime: 2
   fadeType: 2
   lockCamera: 1
+  isEndCutscene: 0
 --- !u!114 &229993505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89164,6 +89165,7 @@ MonoBehaviour:
   fadeTime: 1.5
   fadeType: 0
   lockCamera: 1
+  isEndCutscene: 0
 --- !u!114 &1085730913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97742,7 +97744,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh832664
+  m_Name: pb_Mesh1626844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

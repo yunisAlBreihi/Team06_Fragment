@@ -230,7 +230,6 @@ GameObject:
   - component: {fileID: 99909086984282196}
   - component: {fileID: 6255325139358300296}
   - component: {fileID: 7841791810986822371}
-  - component: {fileID: 3215337576035300545}
   m_Layer: 0
   m_Name: Blob_V3
   m_TagString: Untagged
@@ -299,16 +298,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3215337576035300545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5793344100343306573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0bc5450745966419fbcb66c70c4c13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p: {fileID: 0}
