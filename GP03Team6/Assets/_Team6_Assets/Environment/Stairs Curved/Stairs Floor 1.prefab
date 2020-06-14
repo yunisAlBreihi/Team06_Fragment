@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5074413163808518582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1727701203057253932}
+  - component: {fileID: 4554258525504859502}
+  m_Layer: 0
+  m_Name: BottomCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1727701203057253932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074413163808518582}
+  m_LocalRotation: {x: -0.065844126, y: 0.95504886, z: -0.27588516, w: -0.08621842}
+  m_LocalPosition: {x: -3.69, y: 2.13, z: 6.49}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 5148032110608177759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 32.569, y: 188.76099, z: -5.3240004}
+--- !u!65 &4554258525504859502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074413163808518582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.99, y: 1.8, z: 14.68}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5148032109488614020
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +273,7 @@ GameObject:
   - component: {fileID: 5148032110608177757}
   - component: {fileID: 5148032110608177746}
   m_Layer: 0
-  m_Name: Stairs
+  m_Name: Stairs Floor 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,6 +291,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5148032110307520222}
+  - {fileID: 1727701203057253932}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -170.341, z: 0}
