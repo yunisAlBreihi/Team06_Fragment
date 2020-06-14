@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1243997079277459575}
   - component: {fileID: 1243997079277459853}
   - component: {fileID: 8602013859037668507}
+  - component: {fileID: 6734170114061550953}
   m_Layer: 2
   m_Name: MemoryFragment
   m_TagString: MemoryFragment
@@ -46,7 +47,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243997079277459572}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -6065119299203269632, guid: 90520da3493e5ee42b4677522e20e526, type: 3}
 --- !u!23 &1243997079277459569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -158,6 +159,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53a47861d783a78488687bb5fdbd7b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6734170114061550953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243997079277459572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd27f8538088d714e9a8e766f20b7803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 1
 --- !u!1 &3024762542703633717
 GameObject:
   m_ObjectHideFlags: 0
