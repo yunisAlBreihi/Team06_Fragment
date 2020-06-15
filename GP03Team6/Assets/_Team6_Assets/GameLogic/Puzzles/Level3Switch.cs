@@ -16,6 +16,9 @@ public class Level3Switch : InteractibleObject
 
     private Vector3 forward, target;
 
+    [FMODUnity.EventRef]
+    [SerializeField] public string spin;
+
     private bool b = true;
 
     private Animator anim;
@@ -42,6 +45,7 @@ public class Level3Switch : InteractibleObject
                 item.transform.parent = pivot.transform;
             }
 
+            FMODUnity.RuntimeManager.PlayOneShot(spin);
             rotating = true;
             anim.SetBool("rotating", true);
             target = (rot * forward).normalized;

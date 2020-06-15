@@ -160,6 +160,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PushableLazerCube
       objectReference: {fileID: 0}
+    - target: {fileID: 6222281336575323480, guid: b7254ac923c74bb42b2bef7187d6dc0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6222281336575323483, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
       propertyPath: lazerMask.m_Bits
@@ -214,17 +219,17 @@ PrefabInstance:
     - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.809746
+      value: -19.238
       objectReference: {fileID: 0}
     - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 39.216812
+      value: 35.262
       objectReference: {fileID: 0}
     - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.8378141
+      value: -0.93457
       objectReference: {fileID: 0}
     - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
@@ -265,6 +270,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.266
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0364985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0364985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222281336575323486, guid: b7254ac923c74bb42b2bef7187d6dc0e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0364985
       objectReference: {fileID: 0}
     - target: {fileID: 6222281337380036833, guid: b7254ac923c74bb42b2bef7187d6dc0e,
         type: 3}
@@ -313,6 +333,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8290344176203053667}
     m_Modifications:
+    - target: {fileID: 2898676743235188397, guid: 6e6093f12c0d52e4589245ef2208fc03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6837487760541980807, guid: 6e6093f12c0d52e4589245ef2208fc03,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -392,6 +417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LazerCube_V1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624620113326741313, guid: 6e6093f12c0d52e4589245ef2208fc03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e6093f12c0d52e4589245ef2208fc03, type: 3}

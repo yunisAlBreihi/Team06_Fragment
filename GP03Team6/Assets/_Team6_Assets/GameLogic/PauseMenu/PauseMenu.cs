@@ -13,6 +13,7 @@ public class PauseMenu : MonoBehaviour
     public static bool isPaused;
     private void Start()
     {
+        Time.timeScale = 1;
         input = GetComponent<InputManager>();
         if (input == null)
         {
@@ -34,6 +35,8 @@ public class PauseMenu : MonoBehaviour
         {
             Debug.LogError("No options menu applied, please add an options menu");
         }
+        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void Update()
