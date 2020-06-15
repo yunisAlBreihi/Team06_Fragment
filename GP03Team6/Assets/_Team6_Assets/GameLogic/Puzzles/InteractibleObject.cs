@@ -17,6 +17,7 @@ public class InteractibleObject : MonoBehaviour
     [SerializeField] private Collider col;
 
     protected GameObject player;
+    private PlayerMovement pInteract;
     private InputManager input;
 
     void Start()
@@ -54,7 +55,7 @@ public class InteractibleObject : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject == player && input.Buttons() == "Interact" && canInteract)
+        if(other.gameObject == player && input.Buttons() == "Interact" && canInteract && pInteract.ReturnGrounded())
         {
             InteractedWith(other.gameObject);
         }
