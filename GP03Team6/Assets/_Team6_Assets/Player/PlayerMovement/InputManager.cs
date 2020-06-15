@@ -14,6 +14,8 @@ public class InputManager : MonoBehaviour
     public float cameraSensitivity = 2f;
     public bool useGamePad = false;
 
+    private float camYMultiplier = 1f;
+
     public Transform cam;
     private void Start()
     {
@@ -45,7 +47,7 @@ public class InputManager : MonoBehaviour
     {
         Vector2 camVec = Vector3.zero;
         camVec.x = Input.GetAxis(camR);
-        camVec.y = Input.GetAxis(camU);
+        camVec.y = Input.GetAxis(camU) * camYMultiplier;
 
         return (Vector2.ClampMagnitude(camVec, 1f) * cameraSensitivity);
     }
@@ -74,6 +76,8 @@ public class InputManager : MonoBehaviour
 
     public void MapToGamePad()
     {
+        camYMultiplier = -1f;
+           useGamePad = true;
         hor = "GPHorizontal";
         ver = "GPVertical";
         camR = "LookRight";
@@ -81,6 +85,8 @@ public class InputManager : MonoBehaviour
     }
     public void MapToKeyboard()
     {
+        camYMultiplier = 1f;
+        useGamePad = false;
         hor = "KBHorizontal";
         ver = "KBVertical";
         camR = "Mouse X";
@@ -89,6 +95,7 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("LookUp: " + Input.GetAxis("LookUp"));
         if (PauseMenu.isPaused == true)
         {
             Cursor.visible = true;
