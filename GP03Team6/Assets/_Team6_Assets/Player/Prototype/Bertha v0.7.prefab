@@ -1174,7 +1174,7 @@ MonoBehaviour:
     m_Bits: 918017
   blockingLayers:
     serializedVersion: 2
-    m_Bits: 856577
+    m_Bits: 2953729
   music: {fileID: 0}
   groundSettings:
     speed: 7
