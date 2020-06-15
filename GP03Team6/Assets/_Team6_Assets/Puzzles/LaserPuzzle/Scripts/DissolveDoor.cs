@@ -68,10 +68,10 @@ public class DissolveDoor : MonoBehaviour
     }
     private void OpenSound()
     {
-        FMODUnity.RuntimeManager.PlayOneShotAttached(openSound, p.gameObject);
+        FMODUnity.RuntimeManager.PlayOneShotAttached(openSound, gameObject);
     }
     private void CloseSound()
     {
-        FMODUnity.RuntimeManager.PlayOneShotAttached(closeSound, p.gameObject);
+        FMODUnity.RuntimeManager.PlayOneShotAttached(closeSound, gameObject);
     }
 }
