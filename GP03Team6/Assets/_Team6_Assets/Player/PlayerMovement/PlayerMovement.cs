@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public Quaternion respawnRot;
     public Vector3 respawnPos;
 
+    public LayerMask boxBlockers;
     public LayerMask blockingLayers;
 
     public MusicScript music;

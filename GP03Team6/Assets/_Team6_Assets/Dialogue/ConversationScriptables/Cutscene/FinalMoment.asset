@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: FinalMoment
   m_EditorClassIdentifier: 
   dialogues:
-  - dialogueText: "Don\u2019t leave me. I forgive you"
+  - dialogueText: Dad...
     dialogueOwner: 1
-  - dialogueText: Father...
+    timeBeforeStarting: 0.8
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5
+  - dialogueText: ...I forgive you
     dialogueOwner: 1
+    timeBeforeStarting: 0.1
+    timeBeforeFadingDialogue: 1
+    fadeTime: 0.5

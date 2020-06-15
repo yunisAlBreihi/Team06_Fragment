@@ -27,6 +27,7 @@ public class ClimbingState : IMovement
 
     public void Start()
     {
+        FMODUnity.RuntimeManager.PlayOneShotAttached(climbCheck.settings.grabSound, p.gameObject);
         p.anim.SetBool("climbing", true);
         runFailSafe = true;
         releaseCount = 0f;
@@ -86,7 +87,7 @@ public class ClimbingState : IMovement
                 if (/*forwardInput > 0.55f ||*/ p.input.Buttons() == "Jump")
                 {
                     p.anim.SetTrigger("climbUp");
-                
+                    FMODUnity.RuntimeManager.PlayOneShotAttached(climbCheck.settings.climbSound, p.gameObject);
                     climb = true;
                     recieveInput = false;
                 }

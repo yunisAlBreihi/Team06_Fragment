@@ -18,8 +18,13 @@ public class ClimbSettings
     public float maxSurfaceAngle = 25f;
     public float handOffset = 0.2f;
 
+
+
     public float entrySpeed = 3f;
     public float climbSpeed = 2f;
 
-
+    [FMODUnity.EventRef]
+    [SerializeField] public string grabSound;
+    [FMODUnity.EventRef]
+    [SerializeField] public string climbSound;
 }

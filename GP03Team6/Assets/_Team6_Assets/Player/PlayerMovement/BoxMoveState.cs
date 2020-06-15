@@ -34,7 +34,7 @@ public class BoxMoveState : IMovement
         p.groundCastDistance = 0.3f;
         curSpeed = 0f;
         reachedHandle = false;
-        extents =  box.GetComponent<Collider>().bounds.extents * 0.95f;
+        extents =  box.GetComponent<Collider>().bounds.extents * 0.9f;
         boxUp = box.transform.up;
         p.StartCoroutine(FailSafe());
     }
@@ -167,13 +167,13 @@ public class BoxMoveState : IMovement
 
         if(curSpeed<0f)
         {
-            if(Physics.BoxCast(p.gameObject.transform.position, p.gameObject.GetComponent<CapsuleCollider>().bounds.extents, move, box.transform.rotation, Mathf.Abs(curSpeed * Time.deltaTime)))
+            if(Physics.BoxCast(p.gameObject.transform.position, p.gameObject.GetComponent<CapsuleCollider>().bounds.extents, move, box.transform.rotation, Mathf.Abs(curSpeed * Time.deltaTime), p.boxBlockers))
             {
                 return Vector3.zero;
             }
         }
 
-        if (Physics.BoxCast(box.transform.position, extents * 0.99f, move, box.transform.rotation, Mathf.Abs(curSpeed * Time.deltaTime)) == false)
+        if (Physics.BoxCast(box.transform.position, extents * 0.99f, move, box.transform.rotation, Mathf.Abs(curSpeed * Time.deltaTime), p.boxBlockers) == false)
         {
             box.transform.position += move * Time.deltaTime;
             move.y = p.groundMoveState.GravityAccel();
@@ -199,8 +199,10 @@ public class BoxMoveState : IMovement
             
             Quaternion rot = deltaRot * box.transform.rotation;
 
+        Vector3 pushDir = (box.transform.position - p.gameObject.transform.position).normalized;
+        pushDir.y = 0f;
 
-        if (Physics.BoxCast(box.transform.position, extents, box.transform.forward, box.transform.rotation, 0.1f) == false)
+        if (Physics.BoxCast(box.transform.position, extents, pushDir, box.transform.rotation, 0.15f, p.boxBlockers) == false)
         {
             box.transform.rotation = rot;
 
