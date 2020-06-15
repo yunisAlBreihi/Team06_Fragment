@@ -105,9 +105,6 @@
 		<property name="length">
 			<value>39</value>
 		</property>
-		<relationship name="audioFile">
-			<destination>{d6d634c6-be3b-4619-88ad-e7e4f6e3f6d8}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fe9447ce-0f90-408a-a0d4-271070c862ac}">
 		<property name="name">
