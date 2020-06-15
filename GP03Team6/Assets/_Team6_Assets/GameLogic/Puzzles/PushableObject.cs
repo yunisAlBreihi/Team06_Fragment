@@ -24,6 +24,10 @@ public class PushableObject : InteractibleObject
 
     public Transform[] handles;
 
+    public float  originalAngle;
+
+    public Quaternion originalRot;
+
     [SerializeField] private bool onGround = false, useGrav = true;
 
     [SerializeField] private GameObject pushable;
@@ -44,6 +48,10 @@ public class PushableObject : InteractibleObject
         }
         respawnPos = transform.position;
         respawnRot = transform.rotation;
+
+        originalRot = pushable.transform.rotation;
+
+        originalAngle = Vector3.Angle(pushable.transform.up, Vector3.up);
     }
 
     public override void InteractedWith(GameObject other)
