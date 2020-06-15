@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: fd5575ff3a16c5c4e86cb7c0fc875faf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4005378b75ff0154883c00d16c6a9cdf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortionVectorMap:
