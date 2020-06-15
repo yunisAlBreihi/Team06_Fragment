@@ -201,37 +201,37 @@ PrefabInstance:
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.35472
+      value: 393.57
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 67.61468
+      value: 74.97
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 182.7437
+      value: 455.35
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.0050271605
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9953366
+      value: -0.78943443
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.005985618
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.09646246
+      value: -0.61378515
       objectReference: {fileID: 0}
     - target: {fileID: 756509704647053240, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
@@ -291,17 +291,17 @@ PrefabInstance:
     - target: {fileID: 3635574327365883961, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_AABB.m_Extent.x
-      value: 0.8555982
+      value: 0.85559845
       objectReference: {fileID: 0}
     - target: {fileID: 3635574327365883961, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_AABB.m_Extent.z
-      value: 0.20895961
+      value: 0.20895956
       objectReference: {fileID: 0}
     - target: {fileID: 3635574327365883961, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
       propertyPath: m_AABB.m_Center.z
-      value: 0.00000010430813
+      value: 0.000000074505806
       objectReference: {fileID: 0}
     - target: {fileID: 3635574327365883961, guid: 84dbf5a44c046f04b982723cbed8b1a7,
         type: 3}
