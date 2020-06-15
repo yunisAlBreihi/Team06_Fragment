@@ -30,7 +30,7 @@ public class Spinlevel3ForTrailer : MonoBehaviour
         if(b)
 
         {
-            q = Quaternion.Euler(0f, 3f *Time.deltaTime, 0f);
+            q = Quaternion.Euler(0f, 6f *Time.deltaTime, 0f);
             t.rotation *= q;
         }
     }
