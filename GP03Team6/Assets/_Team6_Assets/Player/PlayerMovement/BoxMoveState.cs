@@ -37,6 +37,16 @@ public class BoxMoveState : IMovement
         extents =  box.GetComponent<Collider>().bounds.extents * 0.9f;
         boxUp = box.transform.up;
         p.StartCoroutine(FailSafe());
+        PushableObject pushScript = box.GetComponentInChildren<PushableObject>();
+        if (pushScript != null)
+        {
+            float origAngle = pushScript.originalAngle;
+
+            if (Mathf.Abs(Vector3.Angle(Vector3.up, box.transform.up) - origAngle) > 15f)
+            {
+                box.transform.rotation = pushScript.originalRot;
+            }
+        }
     }
 
    private IEnumerator FailSafe()
