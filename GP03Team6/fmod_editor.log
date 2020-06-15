@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002875028BE88 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002770FE58628 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -15,92 +15,13 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] SystemI::createSound                     : filename = FMOD_Project\Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000287BA3C16A8 : node = 000002882DD552A0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000287C86108B8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000287BA3C16A8
-[LOG] SystemI::createSoundInternal             :     Create name='FMOD_Project\Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9746464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 54816
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002882DD553B0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Heaven n hell short', format=2, channels=2, frequency=48000, lengthbytes=1321440, lengthpcm=4992000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.307014.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000287BA3C16A8
-[LOG] SoundI::getSubSound                      : sound 00000287BA3C16A8.  Subsound index 0 / 1
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] SoundI::release                          : Heaven n hell short (00000287BA3C16A8)
-[LOG] SoundI::release                          :     Heaven n hell short (0000028768200858)
-[LOG] SoundI::release                          :     Heaven n hell short (0000028754F624A8)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64EE08)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6ABF8)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9C058)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64E8F8)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6C938)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9D9A8)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64EC58)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6B5B8)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9CF88)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64E3E8)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6D978)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9F2F8)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64EAA8)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6E338)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9EC38)
-[LOG] SoundI::release                          : Laser_Active2 (000002876C64E748)
-[LOG] SoundI::release                          :     Laser_Active2 (00000287B9D6ECF8)
-[LOG] SoundI::release                          :     Laser_Active2 (0000028832F9BB48)
-[LOG] SoundI::release                          :  (0000028845FC1908)
-[LOG] SoundI::release                          :     step-001 (000002870D24F3A8)
-[LOG] SoundI::release                          :  (0000028845FC1EC8)
-[LOG] SoundI::release                          :     step-002 (000002870D24ED28)
-[LOG] SoundI::release                          :  (0000028845FC1BE8)
-[LOG] SoundI::release                          :     step-003 (000002870D249708)
-[LOG] SoundI::release                          :  (0000028845FC1A78)
-[LOG] SoundI::release                          :     step-004 (000002870D24CB08)
-[LOG] SoundI::release                          :  (0000028845FC49E8)
-[LOG] SoundI::release                          :     step-005 (000002870D24DB48)
-[LOG] SoundI::release                          :  (0000028845FC4598)
-[LOG] SoundI::release                          :     step-006 (000002870D24BAC8)
-[LOG] SoundI::release                          :  (0000028845FC1D58)
-[LOG] SoundI::release                          :     step (000002870D24DE88)
-[LOG] SoundI::release                          :  (0000028845FC3008)
-[LOG] SoundI::release                          :     Chain_Foley-001 (000002870D24D328)
-[LOG] SoundI::release                          :  (0000028845FC28D8)
-[LOG] SoundI::release                          :     Chain_Foley-002 (000002870D249BE8)
-[LOG] SoundI::release                          :  (0000028845FC2E98)
-[LOG] SoundI::release                          :     Chain_Foley-003 (000002870D24EEC8)
-[LOG] SoundI::release                          :  (0000028845FC42B8)
-[LOG] SoundI::release                          :     Chain_Foley-004 (000002870D24BE08)
-[LOG] SoundI::release                          :  (0000028845FC2D28)
-[LOG] SoundI::release                          :     Silence-004 (000002870D24EB88)
-[LOG] SoundI::release                          :  (0000028845FC25F8)
-[LOG] SoundI::release                          :     esm_ancient_game_cloth_inventory_item_flap_1_mechanical_gear_mechanism_accent (000002870D24D4C8)
-[LOG] SoundI::release                          :  (0000028845FC4428)
-[LOG] SoundI::release                          :     esm_ancient_game_cloth_inventory_item_flap_2_mechanical_gear_mechanism_accent (000002870D24D668)
-[LOG] SoundI::release                          :  (0000028845FC2038)
-[LOG] SoundI::release                          :     esm_ancient_game_cloth_inventory_item_flap_3_mechanical_gear_mechanism_accent (000002870D24D9A8)
-[LOG] SoundI::release                          :  (0000028845FC0EF8)
-[LOG] SoundI::release                          :     Silence-001 (000002870D24D808)
-[LOG] SoundI::release                          :  (0000028845FC1348)
-[LOG] SoundI::release                          :     Silence-002 (000002870D24BFA8)
-[LOG] SoundI::release                          :  (0000028845FC4148)
-[LOG] SoundI::release                          :     Silence-003 (000002870D249A48)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
@@ -112,6 +33,4 @@
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.

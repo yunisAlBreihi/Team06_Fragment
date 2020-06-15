@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8341081526758976155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637278275936259818
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8165973652427536839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,8 +32,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Level3_Music
   guid: 716f0353cb51444ebb8952865755a42c
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -40,7 +57,7 @@ MonoBehaviour:
   lastModified: 637278217556028374
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7666085671750450449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +109,7 @@ MonoBehaviour:
   Path: event:/Voice/3I think Im dying
   guid: f0d018560a52554bb423b807204497c6
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -115,7 +132,7 @@ MonoBehaviour:
   Path: event:/DoorClose
   guid: 2fe22cb3b18f0140ba14b837e3e137ce
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -123,6 +140,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 780
+--- !u!114 &-6254041023927294962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637278275688692377
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6192823072254210456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +209,7 @@ MonoBehaviour:
   Path: event:/Voice/is that a fox
   guid: 4d8507ffb046ac48adac43f993a669e2
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -233,7 +268,7 @@ MonoBehaviour:
   Path: event:/Voice/2Who are you
   guid: c8a3bfb33c4e2b4c8d80723b5d7e438a
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -255,8 +290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Laser_Reroute
   guid: e72c224108a557419da56b0341024312
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -282,6 +316,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3622331381177903131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637278262852608698
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3203569062932157547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +349,7 @@ MonoBehaviour:
   Path: event:/Voice/Follow Me
   guid: 7d250b5d5c48014e809b050e2fab21e9
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -337,8 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/LaserSound
   guid: 46b26bf28b7a6044aaec10785f302e97
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -346,6 +397,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &-2098954304116123803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laser_Activate
+  m_EditorClassIdentifier: 
+  Path: event:/laser_Activate
+  guid: 64ae66d993132e45ac2138da2cc45d84
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
 --- !u!114 &-2049095099076451274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,7 +435,7 @@ MonoBehaviour:
   Path: event:/OjnarTalk
   guid: f6be626eb594ef42990c156cc508b01b
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -384,7 +458,7 @@ MonoBehaviour:
   Path: event:/PillarFall
   guid: ef3c65ddde6f6f40918e0f73d7dff1b4
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -407,7 +481,7 @@ MonoBehaviour:
   Path: event:/DoorOpen2
   guid: 1fadc96a754acf439c5b5a6aa52cfd52
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -429,8 +503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Level1_Music
   guid: 885bacff899aac4a9f4316750aacebae
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -453,6 +526,24 @@ MonoBehaviour:
   Path: FMOD_Project/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637278114516762175
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-690024219145154500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637278262852728379
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -488,10 +579,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 6358153664314055295}
-  - {fileID: -7756195282724762170}
-  - {fileID: 7751397445466704044}
+  - {fileID: 7854130450195669476}
+  - {fileID: -8341081526758976155}
   EditorEvents:
-  - {fileID: -2422372541589523865}
   - {fileID: 7008146927237518554}
   - {fileID: 3615709685057594109}
   - {fileID: 243220253215798013}
@@ -499,13 +589,8 @@ MonoBehaviour:
   - {fileID: -2049095099076451274}
   - {fileID: 4325063014012350172}
   - {fileID: 8041217491139038297}
-  - {fileID: 8507194262945802396}
-  - {fileID: 7152026261835167751}
   - {fileID: 9119600864454739465}
-  - {fileID: 6833601930738428957}
   - {fileID: 6779601852843802030}
-  - {fileID: -8165973652427536839}
-  - {fileID: -1033671269065826430}
   - {fileID: -1446333750490938103}
   - {fileID: 4699366932434547764}
   - {fileID: -5657537268289339718}
@@ -521,7 +606,6 @@ MonoBehaviour:
   - {fileID: 8948872069915901313}
   - {fileID: -4265357154537504836}
   - {fileID: 6469743475736148887}
-  - {fileID: -3959328159305915576}
   - {fileID: 4336491240811757949}
   - {fileID: 6429230949550255577}
   - {fileID: -6624040692495865245}
@@ -530,12 +614,21 @@ MonoBehaviour:
   - {fileID: 971677609165694870}
   - {fileID: 8009953796669860996}
   - {fileID: 5755771039378314351}
+  - {fileID: 2343344433746178070}
+  - {fileID: 8139857480578892703}
+  - {fileID: 3239232368932959408}
+  - {fileID: -2098954304116123803}
+  - {fileID: 8929781150598879627}
+  - {fileID: 9057562977774975001}
+  - {fileID: 1748873251937774042}
+  - {fileID: 5802350263900494958}
+  - {fileID: 6895841336206512724}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   StringsBanks:
   - {fileID: 6358153664314055295}
-  stringsBankWriteTime: 637278217556098187
+  stringsBankWriteTime: 637278275936219929
   cacheVersion: 3
 --- !u!114 &243220253215798013
 MonoBehaviour:
@@ -552,7 +645,7 @@ MonoBehaviour:
   Path: event:/Memory Fragment
   guid: a306b37d6fbabd4194e18e448e4502a9
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -575,7 +668,7 @@ MonoBehaviour:
   Path: event:/M83 'Midnight City' Official video
   guid: 340d8ebd8d2ba343b6bb413731f71daf
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -583,6 +676,75 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &1748873251937774042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/level1_Music
+  m_EditorClassIdentifier: 
+  Path: event:/level1_Music
+  guid: 885bacff899aac4a9f4316750aacebae
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40000
+--- !u!114 &2343344433746178070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/3Dad I forgive you
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/3Dad I forgive you
+  guid: dcbd5d039d147c46a8e797da5dc68a27
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 25082
+--- !u!114 &3239232368932959408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laserSound
+  m_EditorClassIdentifier: 
+  Path: event:/laserSound
+  guid: 46b26bf28b7a6044aaec10785f302e97
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &3402370951441514516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,7 +760,7 @@ MonoBehaviour:
   Path: event:/Voice/2his father doesnt seem
   guid: 2e226c5c4be1f84aa988af9665587a01
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -621,7 +783,7 @@ MonoBehaviour:
   Path: event:/TestMusic
   guid: 8abc2cb6b959b249b8834dd5296f1e9c
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -644,7 +806,7 @@ MonoBehaviour:
   Path: event:/Voice/Hey do you know anything 2
   guid: f09941f3d0d1a9488075e26823035e37
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -685,7 +847,7 @@ MonoBehaviour:
   Path: event:/Voice/Follow Me 2
   guid: 2d86c4b126ec2145a05018a402bafe05
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -708,7 +870,7 @@ MonoBehaviour:
   Path: event:/Ojnar_Footsteps
   guid: 4c6f794333ac8b4ba2d3126861665447
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -731,7 +893,7 @@ MonoBehaviour:
   Path: event:/Voice/2.5Cutscene
   guid: 8d15dfb6f9f5c84e848c2a5259ab3c63
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -772,7 +934,7 @@ MonoBehaviour:
   Path: event:/Voice/Where Am I
   guid: 4c634dd11f442c42979c178f1c3090c4
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -813,7 +975,7 @@ MonoBehaviour:
   Path: event:/Player_LedgeGrab
   guid: e5997251f0efd74b97d20c050e52149d
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -821,6 +983,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 995
+--- !u!114 &5802350263900494958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laser_Reroute
+  m_EditorClassIdentifier: 
+  Path: event:/laser_Reroute
+  guid: e72c224108a557419da56b0341024312
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2477
 --- !u!114 &5873966777696982812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,7 +1021,7 @@ MonoBehaviour:
   Path: event:/Voice/Hey do you know anything
   guid: 9028cc3c5ca1e14d9dee6d582ec62e00
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -877,7 +1062,7 @@ MonoBehaviour:
   Path: event:/Voice/What a strange painting
   guid: 92c534d9cc15f344ad56d035759ed510
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -917,11 +1102,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD_Project/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637278217556098187
+  lastModified: 637278275936219929
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2818
+    Value: 2904
   Exists: 1
 --- !u!114 &6429230949550255577
 MonoBehaviour:
@@ -938,7 +1123,7 @@ MonoBehaviour:
   Path: event:/Voice/3This place isnt real
   guid: a51582d2d21b9a4f885d2252be004dbc
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -961,7 +1146,7 @@ MonoBehaviour:
   Path: event:/Voice/2I saw this kid
   guid: e6f335e120bd1b4fbc8b50157dfc0171
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -984,7 +1169,7 @@ MonoBehaviour:
   Path: event:/Voice/is that a fox 2
   guid: 3718c09853ccec4493b9c0cf8d2eaf16
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1007,7 +1192,7 @@ MonoBehaviour:
   Path: event:/Water_Stream
   guid: 5ac14165a505c24099628e2512b87c13
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -1029,8 +1214,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Laser_Turn
   guid: eed1155835f1d549b2e0b4e03a1d9764
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1475
+--- !u!114 &6895841336206512724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laser_Turn
+  m_EditorClassIdentifier: 
+  Path: event:/laser_Turn
+  guid: eed1155835f1d549b2e0b4e03a1d9764
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1053,7 +1260,7 @@ MonoBehaviour:
   Path: event:/Ambient1
   guid: 5d189108388fe54ea121630e299de2ad
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1111,8 +1318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Laser_Active
   guid: 7ed801abfeb5844797c03a694d90d667
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1135,7 +1341,7 @@ MonoBehaviour:
   Path: event:/MemoryFragmentClose
   guid: d126ecb8276dd44a8f65b4b66b64b871
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1160,6 +1366,42 @@ MonoBehaviour:
   lastModified: 637278217556118137
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &7822992139712120346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637278275688782124
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7854130450195669476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637278275936150111
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &7875996454161570844
 MonoBehaviour:
@@ -1176,7 +1418,7 @@ MonoBehaviour:
   Path: event:/Voice/Where Am I 2
   guid: 5672e8932b3a544a90f2f68202a66877
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1199,7 +1441,7 @@ MonoBehaviour:
   Path: event:/Player_Climb
   guid: d172e302f9370d4fb1b7c33cf47612dc
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1222,7 +1464,7 @@ MonoBehaviour:
   Path: event:/MemoryFragment_Active
   guid: c8b08ce1e43db24184b6af66992c3929
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1230,6 +1472,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 40445
+--- !u!114 &8139857480578892703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/lv3Spinb
+  m_EditorClassIdentifier: 
+  Path: event:/lv3Spinb
+  guid: 1462ec8437ccf048b504122c73e6133b
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4966
 --- !u!114 &8507194262945802396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,8 +1509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Laser_Activate
   guid: 64ae66d993132e45ac2138da2cc45d84
-  Banks:
-  - {fileID: -7756195282724762170}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1253,6 +1517,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
+--- !u!114 &8929781150598879627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/level3_Music
+  m_EditorClassIdentifier: 
+  Path: event:/level3_Music
+  guid: 716f0353cb51444ebb8952865755a42c
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 106000
 --- !u!114 &8948872069915901313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,7 +1555,7 @@ MonoBehaviour:
   Path: event:/Voice/2That kid in the paintings
   guid: 39eba8fc874e8f418414142e6783c952
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1291,7 +1578,7 @@ MonoBehaviour:
   Path: event:/Voice/What a strange painting 2
   guid: afa5e85bf319ad4ba2541540cb524503
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1299,6 +1586,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 9280
+--- !u!114 &9057562977774975001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laser_Active
+  m_EditorClassIdentifier: 
+  Path: event:/laser_Active
+  guid: 7ed801abfeb5844797c03a694d90d667
+  Banks:
+  - {fileID: 7854130450195669476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64000
 --- !u!114 &9119600864454739465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1314,7 +1624,7 @@ MonoBehaviour:
   Path: event:/Bertha_Footstep
   guid: 6dae46dfd9750d46b17929c67ebd5383
   Banks:
-  - {fileID: -7756195282724762170}
+  - {fileID: 7854130450195669476}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
