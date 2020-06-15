@@ -22,6 +22,10 @@ public class LazerPuzzle : MonoBehaviour
     [SerializeField] public string rerouteSound;
     private bool shouldPlay = true;
 
+    public Material onMat, offMat;
+
+    private List<MeshRenderer> mesh = new List<MeshRenderer>();
+
     [Header("EndOfPuzzle")]
 
     public bool theEnd;
@@ -35,7 +39,7 @@ public class LazerPuzzle : MonoBehaviour
         {
             if (item.material.shader == shader)
             {
-                mat.Add(item.material);
+                mesh.Add(item);
             }
         }
 
@@ -61,10 +65,10 @@ public class LazerPuzzle : MonoBehaviour
     {
         if (isRecieving)
         {
-            activeAmount = Mathf.Lerp(activeAmount, 1f, Time.deltaTime * 15f);
-            foreach (Material item in mat)
+           
+            foreach (MeshRenderer item in mesh)
             {
-                item.SetFloat("_ActiveAmount", activeAmount);
+                item.material = onMat;
             }
             if (theEnd)
             {
@@ -89,10 +93,9 @@ public class LazerPuzzle : MonoBehaviour
         }
         if (canRecieve)
         {
-            activeAmount = Mathf.Lerp(activeAmount, 0f, Time.deltaTime * 15f);
-            foreach (Material item in mat)
+            foreach (MeshRenderer item in mesh)
             {
-                item.SetFloat("_ActiveAmount", activeAmount);
+                item.material = offMat;
             }
             if (theEnd)
             {

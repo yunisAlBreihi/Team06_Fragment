@@ -344,6 +344,8 @@ MonoBehaviour:
   activeAmount: 0
   endSound: event:/Laser_Activate
   rerouteSound: event:/Laser_Reroute
+  onMat: {fileID: 2100000, guid: c2b4b3035058b9445a18fc630ad37244, type: 2}
+  offMat: {fileID: 2100000, guid: a85b5c0afb766d748b13424c3ac4314d, type: 2}
   theEnd: 0
   mat: []
   shader: {fileID: -6465566751694194690, guid: 7a54174825c11e14080870f8fe5cf7de, type: 3}

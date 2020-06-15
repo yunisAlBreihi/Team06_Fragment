@@ -828,8 +828,11 @@ MonoBehaviour:
     m_Bits: 1048576
   isRecieving: 0
   canRecieve: 1
+  activeAmount: 0
   endSound: event:/Laser_Activate
   rerouteSound: event:/Laser_Reroute
+  onMat: {fileID: 2100000, guid: 5472dc31df7639e479424ebe1af7d773, type: 2}
+  offMat: {fileID: 2100000, guid: f0573eee7f17e4447ac6521b28ac6c2a, type: 2}
   theEnd: 1
   mat: []
   shader: {fileID: -6465566751694194690, guid: 7a54174825c11e14080870f8fe5cf7de, type: 3}
