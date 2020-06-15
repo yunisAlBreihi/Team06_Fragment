@@ -937,17 +937,17 @@ PrefabInstance:
     - target: {fileID: 3767319593545910042, guid: 4d605dc36743ecb48867aa1e3b300e5a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -145.01
+      value: -145.82
       objectReference: {fileID: 0}
     - target: {fileID: 3767319593545910042, guid: 4d605dc36743ecb48867aa1e3b300e5a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.94
+      value: -16.13
       objectReference: {fileID: 0}
     - target: {fileID: 3767319593545910042, guid: 4d605dc36743ecb48867aa1e3b300e5a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -99.95
+      value: -107.34
       objectReference: {fileID: 0}
     - target: {fileID: 3767319593545910042, guid: 4d605dc36743ecb48867aa1e3b300e5a,
         type: 3}
@@ -88752,7 +88752,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 600
+  m_Intensity: 200
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -88854,7 +88854,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 47.746483
+  m_Intensity: 15.915494
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
