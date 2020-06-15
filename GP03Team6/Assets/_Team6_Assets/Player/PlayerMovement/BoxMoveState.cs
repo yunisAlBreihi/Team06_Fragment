@@ -77,10 +77,16 @@ public class BoxMoveState : IMovement
         {
             return PushBox(input, vel);
         }
+
         else if(Mathf.Abs(Input.GetAxis(p.input.hor)) > 0.7f)
         {
             curSpeed = 0f;
             return TurnBox();
+        }
+        else
+        {
+            p.anim.SetFloat("push", 0f);
+            p.anim.SetFloat("turn", 0f);
         }
         curSpeed = 0f;
         rotationRate = 0f;
