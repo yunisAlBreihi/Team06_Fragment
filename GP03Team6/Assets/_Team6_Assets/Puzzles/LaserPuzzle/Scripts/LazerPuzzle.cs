@@ -14,7 +14,7 @@ public class LazerPuzzle : MonoBehaviour
     public bool canRecieve = true; //check if can recieve beam
     private int lazerIndexFrom, lazerIndexTo;
 
-    private float activeAmount = 0f;
+    [SerializeField] private float activeAmount = 0f;
 
     [FMODUnity.EventRef]
     [SerializeField] public string endSound;
@@ -61,7 +61,7 @@ public class LazerPuzzle : MonoBehaviour
     {
         if (isRecieving)
         {
-            Mathf.Lerp(activeAmount, 1f, Time.deltaTime * 5f);
+            activeAmount = Mathf.Lerp(activeAmount, 1f, Time.deltaTime * 15f);
             foreach (Material item in mat)
             {
                 item.SetFloat("_ActiveAmount", activeAmount);
@@ -89,7 +89,7 @@ public class LazerPuzzle : MonoBehaviour
         }
         if (canRecieve)
         {
-            Mathf.Lerp(activeAmount, 0f, Time.deltaTime * 5f);
+            activeAmount = Mathf.Lerp(activeAmount, 0f, Time.deltaTime * 15f);
             foreach (Material item in mat)
             {
                 item.SetFloat("_ActiveAmount", activeAmount);
