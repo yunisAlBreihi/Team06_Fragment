@@ -89577,6 +89577,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1796208662233989453, guid: 3607ba8079d505244873852fb1afbfb9,
+        type: 3}
+      propertyPath: m_Speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1796208662233989455, guid: 3607ba8079d505244873852fb1afbfb9,
         type: 3}
       propertyPath: m_Enabled
@@ -90139,6 +90144,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LazerReciever
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042823251671842493, guid: 3ce40ee9b42bfa14aa035c441e95fa7a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6473042
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042823251671842493, guid: 3ce40ee9b42bfa14aa035c441e95fa7a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8078177
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042823251671842493, guid: 3ce40ee9b42bfa14aa035c441e95fa7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6473042
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042823251671842493, guid: 3ce40ee9b42bfa14aa035c441e95fa7a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.777
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ce40ee9b42bfa14aa035c441e95fa7a, type: 3}
