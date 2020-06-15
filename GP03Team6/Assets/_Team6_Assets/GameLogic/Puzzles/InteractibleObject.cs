@@ -22,7 +22,7 @@ public class InteractibleObject : MonoBehaviour
 
     void Start()
     {
-        
+        pInteract = PlayerMovement.MyPlayer;
         if (col == null)
         {
             SphereCollider c = gameObject.AddComponent<SphereCollider>();

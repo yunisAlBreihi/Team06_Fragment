@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class InputManager : MonoBehaviour
     public bool useGamePad = false;
 
     private float camYMultiplier = 1f;
+
+    public Toggle toggle;
 
     public Transform cam;
     private void Start()
@@ -98,6 +101,14 @@ public class InputManager : MonoBehaviour
         Debug.Log("LookUp: " + Input.GetAxis("LookUp"));
         if (PauseMenu.isPaused == true)
         {
+            if(toggle.isOn && !useGamePad)
+            {
+                MapToGamePad();
+            }
+            if (!toggle.isOn && useGamePad)
+            {
+                MapToKeyboard();
+            }
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
