@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 5168935321997953406}
   - component: {fileID: 1240960122898820152}
   - component: {fileID: 1459201717395231053}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Bridge_Railings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
