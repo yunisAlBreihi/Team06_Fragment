@@ -15,7 +15,7 @@ public class FadeOjnar : MonoBehaviour
 
         foreach (var item in myMaterials)
         {
-            originalColors.Add(item.GetColor("_Color"));
+            originalColors.Add(item.GetColor("_BaseColor"));
         }
         StartCoroutine(Fade());
     }
