@@ -132,11 +132,10 @@ public class FadeVolume : MonoBehaviour
     IEnumerator WaitBeforeDisabling() 
     {
         yield return new WaitForSeconds(0.8f);
-        gameObject.SetActive(false);
         if (isEndCutscene == false)
         {
+            gameObject.SetActive(false);
             fadeSprite.enabled = false;
-
         }
     }
 }

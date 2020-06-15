@@ -16,8 +16,8 @@ MonoBehaviour:
   - dialogueText: Dad...
     dialogueOwner: 1
     timeBeforeStarting: 0.8
-    timeBeforeFadingDialogue: 1
-    fadeTime: 0.5
+    timeBeforeFadingDialogue: 0.75
+    fadeTime: 0.4
   - dialogueText: ...I forgive you
     dialogueOwner: 1
     timeBeforeStarting: 0.1
