@@ -13,8 +13,11 @@ public class DissolveDoorDouble : MonoBehaviour
 
    [SerializeField] private bool open = false;
 
+    private MeshRenderer m;
+
     private void Start()
     {
+        m = GetComponent<MeshRenderer>();
         mat = GetComponent<MeshRenderer>().material;
         col = GetComponent<Collider>();
     }
@@ -47,12 +50,12 @@ public class DissolveDoorDouble : MonoBehaviour
         if (f > 0f)
         {
             col.enabled = false;
-            gameObject.SetActive(false);
+            m.enabled = false;
         }
         else
         {
             col.enabled = true;
-            gameObject.SetActive(true);
+            m.enabled = true;
         }
     }
 

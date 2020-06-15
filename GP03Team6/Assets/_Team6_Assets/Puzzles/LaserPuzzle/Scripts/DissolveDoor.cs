@@ -20,8 +20,11 @@ public class DissolveDoor : MonoBehaviour
 
     private PlayerMovement p;
 
+    private MeshRenderer m;
+
     private void Start()
     {
+        m = GetComponent<MeshRenderer>();
         mat = GetComponent<MeshRenderer>().material;
         col = GetComponent<Collider>();
         p = PlayerMovement.MyPlayer;
@@ -46,12 +49,12 @@ public class DissolveDoor : MonoBehaviour
         if(f > 0f)
         {
             col.enabled = false;
-            gameObject.SetActive(false);
+            m.enabled = false;
         }
         else
         {
             col.enabled = true;
-            gameObject.SetActive(true);
+            m.enabled = true;
         }
     }
 
