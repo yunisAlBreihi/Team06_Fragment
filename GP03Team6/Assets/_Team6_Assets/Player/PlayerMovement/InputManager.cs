@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
@@ -20,6 +21,8 @@ public class InputManager : MonoBehaviour
     public Toggle toggle;
 
     public Transform cam;
+
+    public StandaloneInputModule module;
     private void Start()
     {
         Cursor.visible = false;
@@ -79,6 +82,8 @@ public class InputManager : MonoBehaviour
 
     public void MapToGamePad()
     {
+        module.horizontalAxis = "GPHorizontal";
+        module.horizontalAxis = "GPVertical";
         camYMultiplier = -1f;
            useGamePad = true;
         hor = "GPHorizontal";
