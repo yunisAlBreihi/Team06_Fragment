@@ -1151,7 +1151,7 @@ MonoBehaviour:
   ver: KBVertical
   camR: Mouse X
   camU: Mouse Y
-  cameraSensitivity: 5
+  cameraSensitivity: 3
   useGamePad: 0
   cam: {fileID: 0}
 --- !u!114 &756509704647053241
@@ -12214,8 +12214,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.000004529953, y: -0.10000837, z: 0.0052618682}
-    m_Extent: {x: 0.85560226, y: 0.86625385, z: 0.21422118}
+    m_Center: {x: 0, y: 0, z: 0.000000074505806}
+    m_Extent: {x: 0.85559773, y: 0.7662456, z: 0.20895943}
   m_DirtyAABB: 0
 --- !u!183 &2440524095129381718
 Cloth:

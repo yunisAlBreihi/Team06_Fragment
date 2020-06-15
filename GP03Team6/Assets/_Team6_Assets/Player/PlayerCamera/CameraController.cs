@@ -79,6 +79,8 @@ public class CameraController : MonoBehaviour
 
     public bool smoothOut = false;
 
+    public InputManager i;
+
     void Awake()
     {
         smoothOut = false;
@@ -96,6 +98,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
+        i = PlayerMovement.MyPlayer.gameObject.GetComponent<InputManager>();
         SetPositionBehindPlayer();
     }
 
@@ -212,10 +215,11 @@ public class CameraController : MonoBehaviour
 
     void ManualRotation()
     {
+        Vector2 lookInput = i.CameraInput();
         if (!PauseMenu.isPaused)
         {
-            input.x = useInvertedVerticalControls ? -Input.GetAxis("Mouse Y") * XMouseSensitivity : Input.GetAxis("Mouse Y") * XMouseSensitivity;
-            input.y = useInvertedHorizontalControls ? -Input.GetAxis("Mouse X") * YMouseSensitivity : Input.GetAxis("Mouse X") * YMouseSensitivity;
+            input.x = useInvertedVerticalControls ? -lookInput.y * XMouseSensitivity : lookInput.y * XMouseSensitivity;
+            input.y = useInvertedHorizontalControls ? -lookInput.x * YMouseSensitivity : lookInput.x * YMouseSensitivity;
             if (input.x < -e || input.x > e || input.y < -e || input.y > e) //here we check for movement from the mouse
             {
                 orbitAngles += Time.unscaledDeltaTime * input; //Time.unscaledDeltaTime is independent from the in-game time, so if the timescale is tempered the orbitAngles are unaffected 
