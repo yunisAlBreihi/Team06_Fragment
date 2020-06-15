@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370754619227925407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.119, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.298, z: 0.5}
   m_LocalScale: {x: 0.8, y: 0.9732, z: 0.2}
   m_Children: []
   m_Father: {fileID: 4370754620032771631}
@@ -157,7 +157,7 @@ Transform:
   m_GameObject: {fileID: 4370754620032771625}
   m_LocalRotation: {x: 0.0000005895854, y: -0.70546633, z: 0.0000005890324, w: 0.7087435}
   m_LocalPosition: {x: -9.85, y: 29.52, z: 61.259926}
-  m_LocalScale: {x: 2.036499, y: 2.036499, z: 2.036499}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4370754619227925392}
   - {fileID: 4370754620062240771}
@@ -338,9 +338,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerMask:
     serializedVersion: 2
-    m_Bits: 1933825
+    m_Bits: 4030977
   isRecieving: 0
   canRecieve: 1
+  activeAmount: 0
   endSound: event:/Laser_Activate
   rerouteSound: event:/Laser_Reroute
   theEnd: 0
@@ -391,7 +392,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370754620062240770}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.5, y: 0.119, z: -0}
+  m_LocalPosition: {x: 0.5, y: 0.298, z: -0}
   m_LocalScale: {x: 0.8, y: 0.9732, z: 0.2}
   m_Children: []
   m_Father: {fileID: 4370754620032771631}

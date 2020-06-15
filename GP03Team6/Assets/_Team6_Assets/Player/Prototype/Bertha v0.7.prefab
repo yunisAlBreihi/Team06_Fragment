@@ -1169,6 +1169,9 @@ MonoBehaviour:
   groundCastDistance: 0.01
   respawnRot: {x: 0, y: 0, z: 0, w: 0}
   respawnPos: {x: 0, y: 0, z: 0}
+  boxBlockers:
+    serializedVersion: 2
+    m_Bits: 918017
   blockingLayers:
     serializedVersion: 2
     m_Bits: 856577
@@ -1216,6 +1219,7 @@ MonoBehaviour:
   jumpDisabled: 0
   jumpCD: 0.4
   jumpCounter: 0
+  jump: event:/Player_Jump
 --- !u!114 &4991559736366467853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,6 +1263,8 @@ MonoBehaviour:
     handOffset: 0.2
     entrySpeed: 7
     climbSpeed: 2.5
+    grabSound: event:/Player_LedgeGrab
+    climbSound: event:/Player_Climb
   rHand: {x: 0, y: 0, z: 0}
   lHand: {x: 0, y: 0, z: 0}
   targetRot: {x: 0, y: 0, z: 0, w: 0}

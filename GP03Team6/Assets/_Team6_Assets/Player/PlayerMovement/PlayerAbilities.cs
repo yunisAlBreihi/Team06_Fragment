@@ -15,6 +15,10 @@ public class PlayerAbilities : MonoBehaviour
     public float jumpCD;
     public float jumpCounter;
 
+
+    [FMODUnity.EventRef]
+    [SerializeField] public string jump;
+
     private void Start()
     {
         p = GetComponent<PlayerMovement>();
@@ -58,6 +62,7 @@ public class PlayerAbilities : MonoBehaviour
             float initSpeed = p.groundSettings.speed;
             p.groundSettings.speed = p.groundSettings.jumpTargetSpeed;
             p.anim.SetTrigger("jump");
+            FMODUnity.RuntimeManager.PlayOneShotAttached(jump, p.gameObject);
             p.airState.grav = true;
             p.addMoveVector = jumpForce - new Vector3(0f,p.cc.velocity.y,0f);
             p.addToMove = true;

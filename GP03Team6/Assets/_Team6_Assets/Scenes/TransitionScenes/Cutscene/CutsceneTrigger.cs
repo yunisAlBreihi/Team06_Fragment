@@ -77,7 +77,8 @@ public class CutsceneTrigger : MonoBehaviour
                 {
                     ManagerForScenes.Instance.Unload(PreviousToUnload[i]);
                 }
-                pl.airSettings.maxFallSpeed = -40f;
+                pl.airSettings.maxFallSpeed = -90f;
+                pl.anim.SetBool("grounded", false);
                 camMove = false;
                 enterCutscene = false;
             }

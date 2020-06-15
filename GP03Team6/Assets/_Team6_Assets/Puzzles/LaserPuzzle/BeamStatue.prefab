@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerMask:
     serializedVersion: 2
-    m_Bits: 1933825
+    m_Bits: 4030977
   shouldShoot: 1
 --- !u!120 &2435616367650608868
 LineRenderer:
